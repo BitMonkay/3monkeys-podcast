@@ -77,7 +77,7 @@
                 {{ $scratch.Set "image"  "images/thumbnail.svg" }}
             {{end}}
             {{ else }}
-                {{ $scratch.Set "image" (printf "%simages/3monkeys.jpeg" .Site.BaseURL }}
+                {{ $scratch.Set "image" (printf "%simages/3monkeys.jpeg" .Site.BaseURL) }}
             {{ end }}
             {{ $image := $scratch.Get "image" }}
             <itunes:image
