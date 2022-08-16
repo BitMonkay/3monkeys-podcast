@@ -4,20 +4,24 @@ title = '3monkeys Podcast'
 theme = 'anatole'
 
 [params]
-[params.author]
+
+title = "三个程序员"
+author = "3monkeys"
+description = "聊聊职业发展那些事"
+profilePicture = "images/3monkeys.jpeg"
+
+[params.podcastAuthor]
 name = "3monkeys"
 email = "wh_linux@126.com"
-twitter = "@grayking"
-
-mainSections = ["blog", "episodes"] # see https://gohugo.io/functions/where/#mainsections
 
 [params.podcast]
 description = "3 code monkeys talk about career"
 tagline = "3monkeys - Career"
 download_url = "https://cdn.linuxzen.com/episodes/"
 cdn_url = "https://cdn.linuxzen.com/"
-itunes_url = "https://podcasts.apple.com/us/podcast/foodie-flashback/id1504783815"
-itunes_id = "id1504783815"
+itunes_url = "https://podcasts.apple.com/us/podcast/foodie-flashback/TODO"
+itunes_id = "TODO"
+
 
 [outputFormats]
 [outputFormats.aacfeed]
