@@ -45,7 +45,7 @@
         </itunes:owner>
         <itunes:block>no</itunes:block>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="{{ .Site.BaseURL }}static/images/3monkeys.jpeg"/>
+        <itunes:image href="{{ .Site.BaseURL }}images/3monkeys.jpeg"/>
         {{ range (where .Site.RegularPages ".Type" "episodes")}}
         {{ .Scratch.Set "asset" .Params.aac }}
         {{if eq $assetFormat "mp3"}}
@@ -77,7 +77,7 @@
                 {{ $scratch.Set "image"  "images/thumbnail.svg" }}
             {{end}}
             {{ else }}
-                {{ $scratch.Set "image" (printf "%sstatic/images/3monkeys.jpeg" .Site.BaseURL }}
+                {{ $scratch.Set "image" (printf "%simages/3monkeys.jpeg" .Site.BaseURL }}
             {{ end }}
             {{ $image := $scratch.Get "image" }}
             <itunes:image
