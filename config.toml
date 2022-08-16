@@ -43,3 +43,10 @@ Rel = "alternate"
 
 [outputs]
 home = ["HTML", "AMP", "RSS", "aacfeed", "mp3feed"]
+
+[menu]
+  [[menu.main]]
+  name = "Episodes"
+  identifier = "episodes"
+  weight = 100
+  url = "/episodes/"
