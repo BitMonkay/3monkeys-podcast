@@ -17,8 +17,7 @@ email = "wh_linux@126.com"
 [params.podcast]
 description = "3 code monkeys talk about career"
 tagline = "3monkeys - Career"
-download_url = "https://3monkeys.linuxzen.com/episodes/"
-cdn_url = "https://3monkeys.linuxzen.com/"
+download_url = "https://bitmonkay.github.io/episodes/"
 itunes_url = "https://podcasts.apple.com/us/podcast/foodie-flashback/TODO"
 itunes_id = "TODO"
 
