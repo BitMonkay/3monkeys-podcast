@@ -1,0 +1,4 @@
+baseURL = 'https://bitmonkay.github.io/3monkeys-podcast/'
+languageCode = 'en-us'
+title = '3monkeys Podcast'
+theme = 'anatole'
