@@ -18,8 +18,8 @@ email = "wh_linux@126.com"
 description = "3 code monkeys talk about career"
 tagline = "3monkeys - Career"
 download_url = "https://bitmonkay.github.io/episodes/audios/"
-itunes_url = "https://podcasts.apple.com/us/podcast/foodie-flashback/TODO"
-itunes_id = "TODO"
+itunes_url = "https://podcasts.apple.com/us/podcast/foodie-flashback/1640179523"
+itunes_id = "1640179523"
 
 
 [outputFormats]

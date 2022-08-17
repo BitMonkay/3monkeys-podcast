@@ -17,7 +17,7 @@
         <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
-        <language>en</language>
+        <language>zh</language>
         <copyright>Copyright &#xA9; {{.Site.Title}}</copyright>
         <managingEditor>{{.Site.Params.podcastAuthor.email}} ({{ .Site.Params.podcastAuthor.name }})</managingEditor>
         <webMaster>{{.Site.Params.podcastAuthor.email}} ({{ .Site.Params.podcastAuthor.name }})</webMaster>
@@ -27,16 +27,15 @@
         <itunes:subtitle>{{.Site.Params.podcast.tagline}}</itunes:subtitle>
         <itunes:summary>{{.Site.Params.podcast.description}}</itunes:summary>
         <itunes:keywords></itunes:keywords>
-        <itunes:category text="Arts">
-            <itunes:category text="Food"/>
-        </itunes:category>
-        <itunes:category text="Health &amp; Fitness">
-            <itunes:category text="Nutrition"/>
+        <itunes:category text="Business">
+          <itunes:category text="Careers"/>
         </itunes:category>
         <itunes:category text="Education">
-            <itunes:category text="Courses"/>
+            <itunes:category text="How To"/>
         </itunes:category>
-        <itunes:category text="History"/>
+        <itunes:category text="News">
+            <itunes:category text="Tech News"/>
+        </itunes:category>
 
         <itunes:author>{{.Site.Params.podcastAuthor.name}}</itunes:author>
         <itunes:owner>
