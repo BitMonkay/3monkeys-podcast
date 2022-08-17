@@ -73,7 +73,7 @@
                 {{ $thumbnailImg := $originalImg.Fit "3000x3000" }}
                 {{ $scratch.Set "image" $thumbnailImg.RelPermalink }}
             {{else}}
-                {{ $scratch.Set "image"  "images/thumbnail.svg" }}
+                {{ $scratch.Set "image"  "images/3monkeys-big.jpg" }}
             {{end}}
             {{ else }}
                 {{ $scratch.Set "image" (printf "%simages/3monkeys-big.jpg" .Site.BaseURL) }}
