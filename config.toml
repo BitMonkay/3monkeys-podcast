@@ -21,6 +21,10 @@ download_url = "https://bitmonkay.github.io/episodes/audios/"
 itunes_url = "https://podcasts.apple.com/us/podcast/三个程序员/id1640179523"
 itunes_id = "id1640179523"
 
+[[params.socialIcons]]
+icon = "fab fa-podcast"
+title = "Podcasts"
+url = "https://podcasts.apple.com/us/podcast/三个程序员/id1640179523"
 
 [outputFormats]
 [outputFormats.aacfeed]
