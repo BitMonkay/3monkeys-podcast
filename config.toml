@@ -22,7 +22,7 @@ itunes_url = "https://podcasts.apple.com/us/podcast/三个程序员/id1640179523
 itunes_id = "id1640179523"
 
 [[params.socialIcons]]
-icon = "fab fa-podcast"
+icon = "fa-solid fa-podcast"
 title = "Podcasts"
 url = "https://podcasts.apple.com/us/podcast/三个程序员/id1640179523"
 
